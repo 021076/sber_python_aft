@@ -1,0 +1,8 @@
+pytest
+allure_pytest
+requests
+dateutils
+pandas
+pytest-xdist
+pytest-rerunfailures
+pytest-selenium
