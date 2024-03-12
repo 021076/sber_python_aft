@@ -1,0 +1,42 @@
+Cформировать json для запроса в формате Python
+Раздел User, метод POST /user
+{
+  "id": 0,
+  "username": "string",
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "password": "string",
+  "phone": "string",
+  "userStatus": 0
+}
+
+***
+request = {}
+request["id"] = 1
+request["username"] = "iivanov"
+request["firstName"] = "Иванов"
+request["lastName"] = "Иван"
+request["email"] = "iivanov@mail.com"
+request["password"] = "Pa$$w0rd"
+request["userStatus"] = 1
+
+
+Раздел Store, метод POST /store/order
+{
+  "id": 0,
+  "petId": 0,
+  "quantity": 0,
+  "shipDate": "2023-09-15T09:25:14.594Z",
+  "status": "placed",
+  "complete": true
+}
+
+***
+request = {}
+request["id"] = 1
+request["petId"] = 1
+request["quantity"] = 5
+request["shipDate"] = "2023-09-15T09:25:14.594Z"
+request["status"] = "placed"
+request["complete"] = True
